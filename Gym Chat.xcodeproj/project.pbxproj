@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDAC6AFC232CE0A900BDCBE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC6AFB232CE0A900BDCBE1 /* AppDelegate.swift */; };
+		CDAC6AFE232CE0A900BDCBE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC6AFD232CE0A900BDCBE1 /* ViewController.swift */; };
+		CDAC6B04232CE0A900BDCBE1 /* Gym_Chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDAC6B02232CE0A900BDCBE1 /* Gym_Chat.xcdatamodeld */; };
+		CDAC6B06232CE0AA00BDCBE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAC6B05232CE0AA00BDCBE1 /* Assets.xcassets */; };
+		CDAC6B09232CE0AA00BDCBE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDAC6B07232CE0AA00BDCBE1 /* LaunchScreen.storyboard */; };
+		CDAC6B14232CE0AA00BDCBE1 /* Gym_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC6B13232CE0AA00BDCBE1 /* Gym_ChatTests.swift */; };
+		CDAC6B1F232CE0AA00BDCBE1 /* Gym_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC6B1E232CE0AA00BDCBE1 /* Gym_ChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDAC6B10232CE0AA00BDCBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAC6AF0232CE0A900BDCBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAC6AF7232CE0A900BDCBE1;
+			remoteInfo = "Gym Chat";
+		};
+		CDAC6B1B232CE0AA00BDCBE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDAC6AF0232CE0A900BDCBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDAC6AF7232CE0A900BDCBE1;
+			remoteInfo = "Gym Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDAC6AF8232CE0A900BDCBE1 /* Gym Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAC6AFB232CE0A900BDCBE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDAC6AFD232CE0A900BDCBE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDAC6B03232CE0A900BDCBE1 /* Gym_Chat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gym_Chat.xcdatamodel; sourceTree = "<group>"; };
+		CDAC6B05232CE0AA00BDCBE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDAC6B08232CE0AA00BDCBE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDAC6B0A232CE0AA00BDCBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAC6B0F232CE0AA00BDCBE1 /* Gym ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gym ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAC6B13232CE0AA00BDCBE1 /* Gym_ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_ChatTests.swift; sourceTree = "<group>"; };
+		CDAC6B15232CE0AA00BDCBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAC6B1A232CE0AA00BDCBE1 /* Gym ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gym ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAC6B1E232CE0AA00BDCBE1 /* Gym_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_ChatUITests.swift; sourceTree = "<group>"; };
+		CDAC6B20232CE0AA00BDCBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDAC6AF5232CE0A900BDCBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC6B0C232CE0AA00BDCBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC6B17232CE0AA00BDCBE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDAC6AEF232CE0A900BDCBE1 = {
+			isa = PBXGroup;
+			children = (
+				CDAC6AFA232CE0A900BDCBE1 /* Gym Chat */,
+				CDAC6B12232CE0AA00BDCBE1 /* Gym ChatTests */,
+				CDAC6B1D232CE0AA00BDCBE1 /* Gym ChatUITests */,
+				CDAC6AF9232CE0A900BDCBE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDAC6AF9232CE0A900BDCBE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC6AF8232CE0A900BDCBE1 /* Gym Chat.app */,
+				CDAC6B0F232CE0AA00BDCBE1 /* Gym ChatTests.xctest */,
+				CDAC6B1A232CE0AA00BDCBE1 /* Gym ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDAC6AFA232CE0A900BDCBE1 /* Gym Chat */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC6AFB232CE0A900BDCBE1 /* AppDelegate.swift */,
+				CDAC6AFD232CE0A900BDCBE1 /* ViewController.swift */,
+				CDAC6B05232CE0AA00BDCBE1 /* Assets.xcassets */,
+				CDAC6B07232CE0AA00BDCBE1 /* LaunchScreen.storyboard */,
+				CDAC6B0A232CE0AA00BDCBE1 /* Info.plist */,
+				CDAC6B02232CE0A900BDCBE1 /* Gym_Chat.xcdatamodeld */,
+			);
+			path = "Gym Chat";
+			sourceTree = "<group>";
+		};
+		CDAC6B12232CE0AA00BDCBE1 /* Gym ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC6B13232CE0AA00BDCBE1 /* Gym_ChatTests.swift */,
+				CDAC6B15232CE0AA00BDCBE1 /* Info.plist */,
+			);
+			path = "Gym ChatTests";
+			sourceTree = "<group>";
+		};
+		CDAC6B1D232CE0AA00BDCBE1 /* Gym ChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC6B1E232CE0AA00BDCBE1 /* Gym_ChatUITests.swift */,
+				CDAC6B20232CE0AA00BDCBE1 /* Info.plist */,
+			);
+			path = "Gym ChatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDAC6AF7232CE0A900BDCBE1 /* Gym Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAC6B23232CE0AA00BDCBE1 /* Build configuration list for PBXNativeTarget "Gym Chat" */;
+			buildPhases = (
+				CDAC6AF4232CE0A900BDCBE1 /* Sources */,
+				CDAC6AF5232CE0A900BDCBE1 /* Frameworks */,
+				CDAC6AF6232CE0A900BDCBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gym Chat";
+			productName = "Gym Chat";
+			productReference = CDAC6AF8232CE0A900BDCBE1 /* Gym Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDAC6B0E232CE0AA00BDCBE1 /* Gym ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAC6B26232CE0AA00BDCBE1 /* Build configuration list for PBXNativeTarget "Gym ChatTests" */;
+			buildPhases = (
+				CDAC6B0B232CE0AA00BDCBE1 /* Sources */,
+				CDAC6B0C232CE0AA00BDCBE1 /* Frameworks */,
+				CDAC6B0D232CE0AA00BDCBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAC6B11232CE0AA00BDCBE1 /* PBXTargetDependency */,
+			);
+			name = "Gym ChatTests";
+			productName = "Gym ChatTests";
+			productReference = CDAC6B0F232CE0AA00BDCBE1 /* Gym ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDAC6B19232CE0AA00BDCBE1 /* Gym ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDAC6B29232CE0AA00BDCBE1 /* Build configuration list for PBXNativeTarget "Gym ChatUITests" */;
+			buildPhases = (
+				CDAC6B16232CE0AA00BDCBE1 /* Sources */,
+				CDAC6B17232CE0AA00BDCBE1 /* Frameworks */,
+				CDAC6B18232CE0AA00BDCBE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDAC6B1C232CE0AA00BDCBE1 /* PBXTargetDependency */,
+			);
+			name = "Gym ChatUITests";
+			productName = "Gym ChatUITests";
+			productReference = CDAC6B1A232CE0AA00BDCBE1 /* Gym ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDAC6AF0232CE0A900BDCBE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = VIMP;
+				TargetAttributes = {
+					CDAC6AF7232CE0A900BDCBE1 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CDAC6B0E232CE0AA00BDCBE1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CDAC6AF7232CE0A900BDCBE1;
+					};
+					CDAC6B19232CE0AA00BDCBE1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CDAC6AF7232CE0A900BDCBE1;
+					};
+				};
+			};
+			buildConfigurationList = CDAC6AF3232CE0A900BDCBE1 /* Build configuration list for PBXProject "Gym Chat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDAC6AEF232CE0A900BDCBE1;
+			productRefGroup = CDAC6AF9232CE0A900BDCBE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDAC6AF7232CE0A900BDCBE1 /* Gym Chat */,
+				CDAC6B0E232CE0AA00BDCBE1 /* Gym ChatTests */,
+				CDAC6B19232CE0AA00BDCBE1 /* Gym ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDAC6AF6232CE0A900BDCBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAC6B09232CE0AA00BDCBE1 /* LaunchScreen.storyboard in Resources */,
+				CDAC6B06232CE0AA00BDCBE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC6B0D232CE0AA00BDCBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC6B18232CE0AA00BDCBE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDAC6AF4232CE0A900BDCBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAC6AFE232CE0A900BDCBE1 /* ViewController.swift in Sources */,
+				CDAC6AFC232CE0A900BDCBE1 /* AppDelegate.swift in Sources */,
+				CDAC6B04232CE0A900BDCBE1 /* Gym_Chat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC6B0B232CE0AA00BDCBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAC6B14232CE0AA00BDCBE1 /* Gym_ChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDAC6B16232CE0AA00BDCBE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAC6B1F232CE0AA00BDCBE1 /* Gym_ChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDAC6B11232CE0AA00BDCBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAC6AF7232CE0A900BDCBE1 /* Gym Chat */;
+			targetProxy = CDAC6B10232CE0AA00BDCBE1 /* PBXContainerItemProxy */;
+		};
+		CDAC6B1C232CE0AA00BDCBE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDAC6AF7232CE0A900BDCBE1 /* Gym Chat */;
+			targetProxy = CDAC6B1B232CE0AA00BDCBE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDAC6B07232CE0AA00BDCBE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDAC6B08232CE0AA00BDCBE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDAC6B21232CE0AA00BDCBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDAC6B22232CE0AA00BDCBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDAC6B24232CE0AA00BDCBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQHUKKXAN7;
+				INFOPLIST_FILE = "Gym Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phoebe.Gym-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDAC6B25232CE0AA00BDCBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQHUKKXAN7;
+				INFOPLIST_FILE = "Gym Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phoebe.Gym-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDAC6B27232CE0AA00BDCBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQHUKKXAN7;
+				INFOPLIST_FILE = "Gym ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phoebe.Gym-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Chat.app/Gym Chat";
+			};
+			name = Debug;
+		};
+		CDAC6B28232CE0AA00BDCBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQHUKKXAN7;
+				INFOPLIST_FILE = "Gym ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phoebe.Gym-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Chat.app/Gym Chat";
+			};
+			name = Release;
+		};
+		CDAC6B2A232CE0AA00BDCBE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQHUKKXAN7;
+				INFOPLIST_FILE = "Gym ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phoebe.Gym-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gym Chat";
+			};
+			name = Debug;
+		};
+		CDAC6B2B232CE0AA00BDCBE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQHUKKXAN7;
+				INFOPLIST_FILE = "Gym ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "phoebe.Gym-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gym Chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDAC6AF3232CE0A900BDCBE1 /* Build configuration list for PBXProject "Gym Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAC6B21232CE0AA00BDCBE1 /* Debug */,
+				CDAC6B22232CE0AA00BDCBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAC6B23232CE0AA00BDCBE1 /* Build configuration list for PBXNativeTarget "Gym Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAC6B24232CE0AA00BDCBE1 /* Debug */,
+				CDAC6B25232CE0AA00BDCBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAC6B26232CE0AA00BDCBE1 /* Build configuration list for PBXNativeTarget "Gym ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAC6B27232CE0AA00BDCBE1 /* Debug */,
+				CDAC6B28232CE0AA00BDCBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDAC6B29232CE0AA00BDCBE1 /* Build configuration list for PBXNativeTarget "Gym ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAC6B2A232CE0AA00BDCBE1 /* Debug */,
+				CDAC6B2B232CE0AA00BDCBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDAC6B02232CE0A900BDCBE1 /* Gym_Chat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDAC6B03232CE0A900BDCBE1 /* Gym_Chat.xcdatamodel */,
+			);
+			currentVersion = CDAC6B03232CE0A900BDCBE1 /* Gym_Chat.xcdatamodel */;
+			path = Gym_Chat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDAC6AF0232CE0A900BDCBE1 /* Project object */;
+}
